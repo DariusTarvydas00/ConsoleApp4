@@ -51,10 +51,9 @@ const string email = "johndoe@example.com";
 const string phone = "+1 123-456-7890 ";
 const string vcard2 = "===================================";
 
-Console.WriteLine(vcard1+
-                  "\n"+"Name: "+ name+
+Console.WriteLine(vcard1+ "\n"+"Name: "+ name+ 
                   "\n"+"Age: " + age + 
                   "\n"+"Responsibilities: " + responsibilities + 
-                  "\n"+"Email: " + email +
-                  "\n"+"Phone: " + phone +
+                  "\n"+"Email: " + email + 
+                  "\n"+"Phone: " + phone + 
                   "\n"+ vcard2);
